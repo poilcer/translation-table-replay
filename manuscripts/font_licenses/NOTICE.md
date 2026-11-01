@@ -1,0 +1,3 @@
+# Fonts used in the article HTML/PDF
+
+Source Serif Pro and Source Code Pro are redistributed as embedded fonts under their respective SIL Open Font Licenses. Roboto Condensed is embedded under its Apache license. Exact license notices from the official ReScience template font directories are provided here. Sources: https://github.com/ReScience/template . The new article renderer is HTML/CSS, not a claim that XeLaTeX or the unmodified ReScience template was executed. Its A4 geometry, typography and headings follow the published proposed PDF style. Font rights are not relicensed by the manuscript CC BY statement or the software MIT statement.

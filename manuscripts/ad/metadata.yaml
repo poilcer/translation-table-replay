@@ -1,0 +1,68 @@
+title: '[Re] When a gene name is not a row: a source-bound reconstruction of ribosome-enriched RNA results in an
+  Alzheimer-related neuronal model'
+authors:
+- name: ByungGyu Yoo
+  orcid: 0009-0009-8158-758X
+  email: ppitu009@gmail.com
+  affiliations: 1,*
+affiliations:
+- code: '1'
+  name: Independent Researcher
+  address: Incheon, Republic of Korea
+keywords: partial replication, translational efficiency, reproducibility, Python
+code:
+- url: https://github.com/poilcer/translation-table-replay/tree/e1133cdd3d14705bdc88623f64773b885b6e87c9
+  doi: null
+  swh: null
+data:
+- url: https://www.nature.com/articles/s41398-020-00882-7
+  doi: 10.1038/s41398-020-00882-7
+replication:
+- cite: 'Ghosh A, Mizuno K, Tiwari SS, Proitsi P, Gomez Perez-Nievas B, Glennon E, Martinez-Nunez RT, Giese KP.
+    Alzheimer''s disease-related dysregulation of mRNA translation causes key pathological features with ageing.
+    Translational Psychiatry. 2020;10:192. doi:10.1038/s41398-020-00882-7. PMCID: PMC7297996. Supplementary Table
+    2: 41398_2020_882_MOESM3_ESM.xlsx.'
+  bib: null
+  url: https://www.nature.com/articles/s41398-020-00882-7
+  doi: 10.1038/s41398-020-00882-7
+abstract: 'Background: Reproducibility of gene-set summaries depends on the measurement, contrast and identifier
+  unit, not simply matching totals. Methods: We recovered the publisher-hosted Supplementary Table 2 for an Alzheimer-related
+  neuronal study (DOI: 10.1038/s41398-020-00882-7), froze a source-column interpretation after prior outcome exposure,
+  and reconstructed within-treatment ribosome-enriched versus total RNA lists using literal gene names. We audited
+  duplicate identifiers and performed subset-only sensitivity analyses. Results: The workbook contained 2,980 vehicle
+  and 3,760 amyloid-beta selected rows, but 2,973 and 3,752 distinct gene names. Literal-name comparison yielded
+  349 vehicle-only, 1,128 amyloid-beta-only and 2,624 shared names, compared with reported summaries of 356, 1,136
+  and 2,624. Seven and eight excess rows respectively account arithmetically for the differences in unique-category
+  totals, without resolving the original identifier-level membership. Conclusions: A recoverable distinction between
+  selected rows and gene names changes reconstruction while preserving the reported overlap. This does not establish
+  a scientific error or overturn the biological findings. Independent interpretation, original identifiers and cross-case
+  evaluation remain necessary.'
+bibliography: null
+type: Replication
+domain: Computational Biology
+language: Python
+review:
+- url: null
+contributors:
+- name: null
+  orcid: null
+  role: editor
+- name: null
+  orcid: null
+  role: reviewer
+- name: null
+  orcid: null
+  role: reviewer
+dates:
+- received: null
+  accepted: null
+  published: null
+article:
+- number: null
+  doi: null
+  url: null
+journal:
+- name: ReScience C
+  issn: 2430-3658
+  volume: null
+  issue: null

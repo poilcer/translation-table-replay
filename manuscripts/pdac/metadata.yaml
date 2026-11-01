@@ -1,0 +1,68 @@
+title: '[Re] Partial reconstruction and endpoint audit of rapamycin-associated translational-efficiency lists in
+  pancreatic cancer cells'
+authors:
+- name: ByungGyu Yoo
+  orcid: 0009-0009-8158-758X
+  email: ppitu009@gmail.com
+  affiliations: 1,*
+affiliations:
+- code: '1'
+  name: Independent Researcher
+  address: Incheon, Republic of Korea
+keywords: partial replication, translational efficiency, reproducibility, Python
+code:
+- url: https://github.com/poilcer/translation-table-replay/tree/e1133cdd3d14705bdc88623f64773b885b6e87c9
+  doi: null
+  swh: null
+data:
+- url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10001351/
+  doi: 10.3390/cancers15051444
+replication:
+- cite: Nguyen TU, Hector H, Pederson EN, Lin J, Ouyang Z, Wendel HG, Singh K. Rapamycin-Induced Feedback Activation
+    of eIF4E-EIF4A Dependent mRNA Translation in Pancreatic Cancer. Cancers. 2023;15(5):1444. doi:10.3390/cancers15051444.
+    Primary article Methods/Results and Table S1 directly inspected.
+  bib: null
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10001351/
+  doi: 10.3390/cancers15051444
+abstract: Published translational-efficiency lists can be computationally recoverable without making the underlying
+  inference reproducible. We examined the publicly supplied pancreatic-cancer rapamycin table from Nguyen et al.,
+  separating list reconstruction from model refitting and biological interpretation. A post-exposure plan fixed
+  seven supplied-q thresholds, literal-identifier checks, effect-magnitude bands and endpoint mapping before new
+  calculations. Direct workbook parsing recovered 1815 selected entries and the reported 473 down/588 up entries
+  at q<0.01. Tightening q<0.05 to q<0.01 retained 58.46% overall, 54.94% down and 61.64% up. The less-stringent-only
+  band contained 754 entries, including 163 with absolute log2 TE effects at least 2. Two repeated gene symbols
+  occurred in opposing directions despite distinct Ensembl identifiers. No signed-effect conflict occurred at the
+  literal-ID level. The source separately measured early footprint-derived TE, metabolic labeling, reporters, viability
+  and colony growth; these endpoints cannot be merged into one therapeutic-effect estimate. This partial reconstruction
+  supports source-list consistency and identifies annotation and interpretation hazards. It does not reconstruct
+  the full tested universe, identify the correction algorithm, refit RiboDiff, establish Figure 1F membership identity
+  or validate clinical efficacy.
+bibliography: null
+type: Replication
+domain: Computational Biology
+language: Python
+review:
+- url: null
+contributors:
+- name: null
+  orcid: null
+  role: editor
+- name: null
+  orcid: null
+  role: reviewer
+- name: null
+  orcid: null
+  role: reviewer
+dates:
+- received: null
+  accepted: null
+  published: null
+article:
+- number: null
+  doi: null
+  url: null
+journal:
+- name: ReScience C
+  issn: 2430-3658
+  volume: null
+  issue: null

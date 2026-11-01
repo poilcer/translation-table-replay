@@ -2,7 +2,7 @@
 
 Offline, standard-library Python code for bounded reconstructions of three published processed workbooks. The new code is released under the MIT license with the responsible author's authorization. Original publications and source data retain their own licenses; no workbooks, full source matrices, private records or credentials are included.
 
-Associated manuscripts remain subject to author factual declarations and journal-specific finalization. This repository is not evidence of submission, acceptance, human peer review, independent biological replication or re-fitting the original statistical models.
+The three associated manuscripts and machine-readable submission metadata are under manuscripts/ad, manuscripts/pd and manuscripts/pdac. The responsible author confirmed funding/conflict/collaboration declarations and authorized their CC BY 4.0 release and submission; those grants do not apply to original source data or embedded fonts. Journal submission or acceptance is established only by the actual journal records, not by repository publication. No human peer review, independent biological replication or re-fitting of the original statistical models is claimed.
 
 ## Run
 
