@@ -1,0 +1,35 @@
+{
+  "reference_source_sha256": {
+    "ad_submission_candidate/analysis_results.json": "f5d4c60a2fcf0fc3f2c013c8d05e7d6e01659331b8dfcb74a866190489aa676b",
+    "ad_submission_candidate/duplicate_audit.json": "561d16e59e6e36f946659a066e3de49b8c3274ea34f8db422b754e6ecb44b269",
+    "ad_submission_candidate/source_rows.csv": "5e223b94bec328f5ae7c5a59a5ec585f25b88fbe50d4fe6484eb2c8fcaf8d720",
+    "pd_submission_candidate/results.json": "8ad609ec874acaedb5f68fcafaa014019b0adb4e01546837787050f9c67edc1e",
+    "pd_submission_candidate/structure_universe_audit.json": "e3730d676b310af05aaef29c2fa753e498325cb8e7eeca0c7eb7e5498f945d53",
+    "pd_submission_candidate/boundary.csv": "355fb4e4b8ad25fbbaab7b3b170f0d46ce09d697cd8f77c4957196f17c149a7f",
+    "pd_submission_candidate/duplicate_symbols.csv": "c15b993d2123f903b11ea0de8c0422a8615891574cec6477845adace7b8c0404",
+    "pd_submission_candidate/derived_membership.csv": "251ae657d3d4587266ae22d5fd263decfd6a1b99c7e4c9a653b7e66e9d584031",
+    "pd_submission_candidate/sensitivity.csv": "926e6add558a4f07fa5e2a6c6064c40c4bb9bbd3eaaafdd5bb3fd20e4e99ad58",
+    "pd_submission_candidate/structure.csv": "8b2120ba311fa96de685bb88d27d942f84e149655a1e1e215735cb177f8d4192",
+    "pd_submission_candidate/threshold_comparison.csv": "e830eef0ef05185e7ec11adcfd7a1b29ecd8fd2f35f2b5ee6222d7353a1f406c",
+    "pd_analysis/figure1_2.xls": "08a9bbc3fa8696426c02fe9f725a44b69d9b2927532a8c5f727a1260ac894c3d",
+    "pdac_submission_candidate/analysis_run.json": "ce019a31870cf6cb81b320f95cf82165613568428252c8506af2b240cb734c6f",
+    "pdac_submission_candidate/thresholds.csv": "fea8523681b7e998b85d6e298a6c407ef3b7df2577d787db9c88e75565b6a4f7",
+    "pdac_submission_candidate/effect_bands.csv": "a8878eca1d74c000fdc88ec56d92a16f168b881d4d870295f8dda0aceb204f5b",
+    "pdac_submission_candidate/q_boundaries.csv": "d55493fbbfeca94191b89a38ff36ec99607638780ab3a43cb0a25dc412ba9c59",
+    "pdac_submission_candidate/audit.json": "a94a982c5ec6049a39de44ca3cfce539c06acf010b54ac81dd5c46848955370a",
+    "pdac_analysis/table_rows.csv": "1c6eddc507aa1e633293336d1d8b2d9bf08547ab8b8f767ee0aea50fee094d89",
+    "ad_submission_candidate/analyze.py": "b4360946ae3f35ae3434246fd0f5e918ead754c857b77ad9c49fd19b931bd60c",
+    "ad_submission_candidate/manuscript.md": "0b4ae8b81b9affb69ac508217998c61c90c44a867279dcaa37c04660863714d9",
+    "pd_submission_candidate/analyze.py": "41a88e3314d1f9bd8ae7ca15d0bb0d0d1029f7cedbf7343fe58b62c00a203091",
+    "pd_submission_candidate/manuscript.md": "96ad34710ff9387b4f6d82d276bb87473430e893c8914d87ff5117473762df08",
+    "pdac_submission_candidate/analyze.py": "c869bda3c7051124c5bb4e5cc7ecc1b9384fdb106992e000631ca80d467620e5",
+    "pdac_submission_candidate/manuscript.md": "5248380f2c2b09513cfc89b5e37bc9c95bdaea6bc38008946e9cf48c84f9c5b4",
+    "portable_release_candidates/bundle/replay.py": "cee3dea3501080c3122678dc5fb4bb10cefe9e96f48956f9869ef060ecc23674",
+    "portable_release_candidates/bundle/expectations.json": "f30c9cc859b86f14084ec02173576ad21a592b93bdf7fe2dcbb5c2acbf123ef7"
+  },
+  "reference_capture": "Candidate JSON/CSV outputs; AD and PDAC membership oracles from pre-existing source CSVs; PD eligibility and strict/inclusive row-anchor oracles independently read by openpyxl with original workbook epoch, no symbol repair. No source matrix is distributed.",
+  "capture_only_dependency": {
+    "openpyxl": "3.1.5"
+  },
+  "runtime_dependencies": "Python standard library only"
+}

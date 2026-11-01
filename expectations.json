@@ -1,0 +1,178 @@
+{
+  "ad": {
+    "input_sha256": "3dc2f0d2b36e003c18a90e57dc9655f60640bd0de2b500a42e1431b785368140",
+    "headers": {
+      "log_control_non_fmrp": {
+        "1": {
+          "A": "Associated_Gene_Name",
+          "B": "log2FoldChange",
+          "C": "padj"
+        }
+      },
+      "log_ab_non_fmrp": {
+        "1": {
+          "A": "Associated_Gene_Name",
+          "B": "log2FoldChange",
+          "C": "padj"
+        }
+      },
+      "log_control_fmrp": {
+        "1": {
+          "A": "Associated_Gene_Name",
+          "B": "log2FoldChange",
+          "C": "padj"
+        }
+      },
+      "log_ab_fmrp": {
+        "1": {
+          "A": "Associated_Gene_Name",
+          "B": "log2FoldChange",
+          "C": "padj"
+        }
+      }
+    },
+    "counts": {
+      "vehicle": 2973,
+      "abeta": 3752,
+      "vehicle_unique": 349,
+      "abeta_unique": 1128,
+      "shared": 2624,
+      "union": 4101
+    },
+    "membership_sha256": "4df9d8ef46dfd60785b786b8d1ac4821501fe495505fc9d97bec44c550fe616e",
+    "membership_records": 4101
+  },
+  "pd": {
+    "input_sha256": "08a9bbc3fa8696426c02fe9f725a44b69d9b2927532a8c5f727a1260ac894c3d",
+    "headers": {
+      "LRRK2 GS TG mice": {
+        "1": {
+          "B": "id",
+          "C": "geneSymbol",
+          "D": "description",
+          "E": "baseMean_control_footprinting",
+          "F": "baseMean_GS LRRK2_footprinting",
+          "G": "baseMean_control_RNA-Seq",
+          "H": "baseMean_GS LRRK2_RNA-Seq",
+          "I": "5'UTR_FE_MIN(isoform) (kcal/mol)",
+          "J": "TE_control (log2)",
+          "K": "TE_GS LRRK2 (log2)",
+          "L": "dTE(GS-WT)",
+          "M": "z-score"
+        }
+      },
+      "LRRK2 GSDA TG mice": {
+        "1": {
+          "B": "id",
+          "C": "geneSymbol",
+          "D": "description",
+          "E": "baseMean_control_footprinting",
+          "F": "baseMean_GSDA LRRK2_footprinting",
+          "G": "baseMean_control_RNA-Seq",
+          "H": "baseMean_GSDA LRRK2_RNA-Seq",
+          "I": "5'UTR_FE_MIN(isoform) (kcal/mol)",
+          "J": "TE_control (log2)",
+          "K": "TE_GSDA LRRK2 (log2)",
+          "L": "dTE(GSDA-WT)",
+          "M": "z-score"
+        }
+      },
+      "LRRK2 KO mice": {
+        "1": {
+          "B": "id",
+          "C": "geneSymbol",
+          "D": "description",
+          "E": "baseMean_WT_footprinting",
+          "F": "baseMean_KO_footprinting",
+          "G": "baseMean_WT_RNA-Seq",
+          "H": "baseMean_KO_RNA-Seq",
+          "I": "5'UTR_FE_MIN(isoform) (kcal/mol)",
+          "J": "TE_WT (log2)",
+          "K": "TE_KO (log2)",
+          "L": "dTE(KO-WT)",
+          "M": "z-score"
+        }
+      }
+    },
+    "counts": {
+      "contrasts": [
+        {
+          "contrast": "GS",
+          "n": 8576,
+          "mean": 0.051205364417396995,
+          "population_sd": 0.21647096160458215,
+          "sample_sd": 0.2164835834501137,
+          "population_up": 688,
+          "population_down": 335,
+          "source_up": 687,
+          "source_down": 335
+        },
+        {
+          "contrast": "GSDA",
+          "n": 8576,
+          "mean": -0.07499160947806534,
+          "population_sd": 0.17373346091267755,
+          "sample_sd": 0.17374359084830976,
+          "population_up": 313,
+          "population_down": 631,
+          "source_up": 313,
+          "source_down": 631
+        },
+        {
+          "contrast": "KO",
+          "n": 9561,
+          "mean": 0.02003976972916048,
+          "population_sd": 0.27274918543454946,
+          "sample_sd": 0.2727634501862883,
+          "population_up": 596,
+          "population_down": 576,
+          "source_up": 596,
+          "source_down": 576
+        }
+      ]
+    },
+    "membership_sha256": "3cc5d08e9b22c63064088bc209873d0271d5ecfb26df0f26304ff841e8abe3a8",
+    "membership_records": 26713
+  },
+  "pdac": {
+    "input_sha256": "8e959e04d5c023d2468c448208093e8418d6ac2895f22f3fa227c748a5a32898",
+    "headers": {
+      "Table S1": {
+        "1": {
+          "A": "Supplementary Table S1. Genes with changes in translational efficiency following rapamycin treatment"
+        },
+        "3": {
+          "A": "Supplementary Table S1A. Genes with decreased translational efficiency (n=861; p<0.05 and q<0.05)"
+        },
+        "5": {
+          "A": "Gene ID",
+          "B": "Gene Name",
+          "C": "p-value",
+          "D": "q-value",
+          "E": "log2 Fold Change (Translational Efficiency)"
+        },
+        "868": {
+          "A": "Supplementary Table S1B. Genes with increased translational efficiency (n=954; p<0.05 and q<0.05)"
+        },
+        "870": {
+          "A": "Gene ID",
+          "B": "Gene Name",
+          "C": "p-value",
+          "D": "q-value",
+          "E": "log2 Fold Change (Translational Efficiency)"
+        }
+      }
+    },
+    "counts": {
+      "rows": 1815,
+      "counts": {
+        "0.01_down": 473,
+        "0.01_up": 588,
+        "0.05_down": 861,
+        "0.05_up": 954
+      }
+    },
+    "membership_sha256": "770a04628a3f5bf47f53f4d3143c4c15e38436d4c29ea3e648fe63db88e4d684",
+    "membership_records": 2876
+  }
+}
